@@ -1,0 +1,52 @@
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Discos Duros SSD</title>
+ <style> body { font-family: Arial, sans-serif; margin: 20px; } h1 { color: #333; } p { line-height: 1.6; } 
+ .content { display: flex; justify-content: space-between; } .content img { max-width: 25%; }
+
+ </style> </head> 
+ 
+ <body> <h1>Discos Duros SSD</h1> 
+ <div class="content"> 
+ <div> 
+
+ <p>Los Discos Duros de Estado Sólido (SSD, por sus siglas en inglés) son una forma de almacenamiento de datos que se ha vuelto 
+ cada vez más popular en la última década. A diferencia de los discos duros tradicionales (HDD), los SSD no utilizan partes móviles para 
+ almacenar y acceder a la información, lo que los hace más rápidos y confiables.</p>
+ <h2>Funcionamiento</h2> 
+ <p>El funcionamiento de un SSD se basa en la utilización de celdas de memoria flash NAND para almacenar datos. Cada 
+ celda puede retener una carga eléctrica que representa un bit de información (0 o 1). Cuando se necesita acceder a 
+ los datos, el controlador del SSD lee o escribe información en estas celdas.</p> 
+ <h2>Partes</h2> 
+ <p>Un disco duro SSD consta de varias partes clave, que incluyen:</p> 
+ <ul> 
+ <li><strong>Celdas NAND:</strong> Estas son las unidades básicas de almacenamiento en un SSD y 
+ almacenan los datos en forma de cargas eléctricas.</li> 
+ <li><strong>Controlador:</strong> El controlador gestiona las operaciones de lectura y escritura, así como la administración
+ de las celdas NAND para garantizar la durabilidad y el rendimiento del SSD.</li> 
+ <li><strong>DRAM Cache:</strong> Algunos SSD tienen una caché de memoria RAM que acelera las operaciones de lectura y escritura.</li> 
+ <li><strong>Conexiones y puertos:</strong> Los SSD se conectan a la computadora a través de interfaces como SATA, PCIe o M.2.</li> 
+ </ul> 
+ <h2>Ventajas de los Discos Duros SSD</h2> 
+ <p>Los SSD ofrecen varias ventajas sobre los HDD, incluyendo:</p> 
+ <ul> <li>Mayor velocidad de lectura y escritura.</li> 
+
+<li>Mayor durabilidad debido a la falta de partes móviles.</li> <li>Menor consumo de energía y generación de calor.</li> 
+<li>Tamaño más compacto y ligero.</li> 
+</ul> 
+
+<p>Los discos duros SSD han revolucionado la forma en que almacenamos y accedemos a nuestros datos.
+ Su funcionamiento sin partes móviles y sus ventajas en términos de velocidad y durabilidad los convierten en 
+ una excelente elección para mejorar el rendimiento de una computadora.</p> <p>Esperamos que esta introducción a los discos 
+ duros SSD y sus partes haya sido informativa. Si deseas obtener más información, no dudes en explorar nuestros otros recursos sobre 
+ tecnología de almacenamiento.</p>
+ <h2>Donde encontrarlos</h2>
+ <p>Estos discos se pueden encontrar en la página de <a href="https://www.pccomponentes.com" class="enlace">PcComponentes</a> desde 30€. 
+ Y en la página de  <a href="https://www.amazon.com" class="enlace">Amazon</a> incluso más baratas, desde 15€ un disco de 256GB.
+ </div> <img src="images/discossd.png" alt="Disco SSD" /> </div> 
+ 
+ </body>
+ </html>
+
+
