@@ -103,4 +103,12 @@
             padding: 1em;
             width: 100%;
         }
-    
+        .image {
+        flex: 0 1 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+        }
+
+            .image img {
+        width: 20%;
+        height: auto;
+        float: right;
+        }
