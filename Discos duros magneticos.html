@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disco Duro Magnético</title>
     <style>
         body {
@@ -13,77 +14,67 @@
             color: #343a40;
         }
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
+        header {
+            background-color: #343a40;
             color: white;
             text-align: center;
-            padding: 14px 16px;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav a {
             text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-
-        .active {
-            background-color: #04AA6D;
+            color: white;
+            margin: 0 1em;
+            font-weight: bold;
         }
 
         .container {
-            width: 80%;
-            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
             padding: 20px;
         }
 
-        .text {
-            width: 60%;
-            float: left;
+        .content {
+            max-width: 60%;
             box-sizing: border-box;
         }
 
-        .image {
-            width: 40%;
-            float: right;
-            box-sizing: border-box;
-        }
-
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2, h3 {
+        h1 {
             color: #343a40;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
         }
 
         h2 {
             color: #3498db;
         }
 
-        ul, ol {
+        ul,
+        ol {
             margin-top: 10px;
         }
 
         .enlace {
             color: #3498db;
-            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         footer {
@@ -91,28 +82,22 @@
             color: white;
             text-align: center;
             padding: 1em;
-            width: 90%;
-            position: fixed;
-            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 
 <body>
-    <ul>
-        <li align="right"><a class="active" href="index.html">Home</a></li>
-        <li><a href="Discos SSD.html">Discos SSD</a></li>
-        <li><a href="Discos duros magneticos.html">Discos HHD</a></li>
-        <li><a href="Memoria Flash">Memoria Flash</a></li>
-    </ul>
+    <header>
+        <h1>¿Cómo funciona un disco duro magnético?</h1>
+    </header>
 
     <div class="container">
-        <div class="text">
-            <h1>¿Cómo funciona un disco duro magnético?</h1>
-            <p>En 2010 Eric Schmidt, entonces CEO de Google, dijo que cada dos días generamos tantos datos como toda la humanidad desde sus orígenes hasta 2003. Concretamente 5 Exabytes de información. Donde antes hacíamos una foto con una cámara compacta ahora hacemos diez con el móvil.</p>
-
+        <div class="content">
             <h2>Funcionamiento</h2>
             <p>Un disco duro magnético o HDD (hard disk drive) consiste en una serie de discos magnéticos (apilados unos sobre otros) que giran, y un cabezal que se posa en la superficie de los discos y es capaz de leer y escribir contenido en ellos mediante campos magnéticos.</p>
+
+            <p>IBM fue la empresa que más innovó en discos duros, hasta que en 2003 vendió esta línea de negocio a Hitachi. La mejora de los cabezales y sobre todo de la densidad de la información en los discos magnéticos es lo que ha logrado reducir su tamaño, ampliar el almacenamiento y reducir el coste. Sin embargo, los HDD (discos duros) tienen un problema: al tener partes mecánicas, la velocidad de lectura y escritura está limitada.</p>
 
             <h2>Partes</h2>
             <ul>
@@ -123,16 +108,17 @@
                 <li><strong>Brazo de Cabezal:</strong> Su función principal es posicionar con precisión los cabezales de lectura/escritura sobre la superficie de los platos magnéticos para que puedan leer o escribir datos en ubicaciones específicas del disco duro.</li>
             </ul>
 
-            <p>El precio de los discos duros magnéticos varía según la capacidad y la marca. En la página de <a href="https://www.pccomponentes.com" class="enlace">PcComponentes</a> pueden encontrar desde 43€ un disco duro magnético de 1TB, y en la página de <a href="https://armariosrack.es/discos-magneticos" class="enlace">DPItelecomunicaciones</a> podemos encontrar discos de 1TB por un precio similar al de PComponentes y también de 500GB desde un precio más económico, 22€.</p>
+            <p>El precio de los discos duros magnéticos varía según la capacidad y la marca. En la página de <a href="https://www.pccomponentes.com" class="enlace">PcComponentes</a> pueden encontrar desde 43€ un disco duro magnético de 1TB, y en la página de <a href="https://armariosrack.es/discos-magneticos" class="enlace">DPItelecomunicaciones</a> podemos encontrar discos de 1TB por un precio similar al de PcComponentes y también de 500GB desde un precio más económico, 22€.</p>
         </div>
+
         <div class="image">
-            <img src="images/discoduroomagnetico.webp" alt="Foto disco duro magnético">
+            <img src="images/discoduromagnetico.webp" alt="Foto disco duro magnético">
         </div>
     </div>
 
-
+    <footer>
+        <p>© 2023 Tu Compañía. Todos los derechos reservados.</p>
+    </footer>
 </body>
 
 </html>
-
-
