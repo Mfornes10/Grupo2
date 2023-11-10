@@ -93,7 +93,7 @@
         }
 
         img {
-            max-width: 20%;
+            max-width: %;
             height: auto;
             align:center;
             border-radius: 6px;
@@ -112,7 +112,7 @@
         }
 
         .image img {
-        width: 50%;
+        width: 100%;
         height: auto;
         float: right;
         }
