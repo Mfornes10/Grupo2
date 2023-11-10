@@ -65,6 +65,7 @@
         .content {
             max-width: 70%;
             box-sizing: border-box;
+            text-align: center;
         }
 
         h1 {
@@ -78,6 +79,7 @@
 
         h2 {
             color: #3498db;
+            text-align: center;
         }
 
         ul, ol {
