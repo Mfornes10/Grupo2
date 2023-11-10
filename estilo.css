@@ -107,7 +107,7 @@
         flex: 0 1 30%; /* Ajusta el ancho de la imagen según tus necesidades */
         }
 
-            .image img {
+        .image img {
         width: 20%;
         height: auto;
         float: right;
